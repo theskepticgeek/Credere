@@ -1,0 +1,349 @@
+{
+  "fonts": [
+    {
+      "name": "Anton",
+      "loaded": true
+    },
+    {
+      "name": "Syne",
+      "loaded": true
+    },
+    {
+      "name": "Manrope",
+      "loaded": true
+    },
+    {
+      "name": "Mono",
+      "loaded": true
+    }
+  ],
+  "timeline": {
+    "duration": 40,
+    "fps": 60,
+    "bpm": 120,
+    "key": "D minor",
+    "transition": 0.72,
+    "scenes": [
+      {
+        "id": "hook",
+        "start": 0,
+        "end": 3,
+        "cut": "none",
+        "hits": [
+          0.16,
+          0.34,
+          0.52
+        ]
+      },
+      {
+        "id": "tension",
+        "start": 3,
+        "end": 8,
+        "cut": "slit",
+        "hits": [
+          0.28,
+          0.47,
+          0.66,
+          0.85,
+          1.04,
+          1.23,
+          1.42,
+          1.61,
+          2.15
+        ]
+      },
+      {
+        "id": "reveal",
+        "start": 8,
+        "end": 12,
+        "cut": "iris",
+        "hits": [
+          0.18,
+          0.36,
+          0.54,
+          0.72,
+          0.9,
+          1.08,
+          1.9
+        ]
+      },
+      {
+        "id": "repay",
+        "start": 12,
+        "end": 18,
+        "cut": "diagonal",
+        "hits": [
+          0.2,
+          1.05,
+          2.05,
+          3.05
+        ]
+      },
+      {
+        "id": "capacity",
+        "start": 18,
+        "end": 24,
+        "cut": "match",
+        "hits": [
+          0.25,
+          0.55,
+          0.85,
+          1.15,
+          2.2
+        ]
+      },
+      {
+        "id": "borrow",
+        "start": 24,
+        "end": 30,
+        "cut": "zoom",
+        "hits": [
+          0.3,
+          0.65,
+          1,
+          1.35,
+          1.7
+        ]
+      },
+      {
+        "id": "waterfall",
+        "start": 30,
+        "end": 35,
+        "cut": "slitH",
+        "hits": [
+          0.25,
+          1.05,
+          1.85,
+          2.65
+        ]
+      },
+      {
+        "id": "end",
+        "start": 35,
+        "end": 40,
+        "cut": "mountain",
+        "hits": [
+          0.22,
+          0.6,
+          1.1
+        ]
+      }
+    ]
+  },
+  "palette": {
+    "ink": "#1A1A1A",
+    "paper": "#F4F1EA",
+    "orange": "#FF512F",
+    "blue": "#33556F",
+    "ice": "#BDE0FE",
+    "stone": "#E6E1D6",
+    "green": "#244C3A",
+    "lime": "#E5EDC3"
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "canvasCount": 1,
+  "deterministic": true,
+  "frameHash": "72f4526f42af165d7df9ec1a4a9a953cf96f3f8d0ef2c38f13b8f073b4067539",
+  "renderSeconds": 119.301,
+  "textAudit": {
+    "sampledFrames": 400,
+    "violations": 0,
+    "safeMargin": 90,
+    "minTextSize": 60
+  },
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "unknown",
+        "profile": "100",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 42,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 614400,
+        "duration": "40.000000",
+        "bit_rate": "4299156",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "2400",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "unknown",
+        "profile": "1",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1920000,
+        "duration": "40.000000",
+        "bit_rate": "261927",
+        "nb_frames": "1876",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\krris\\OneDrive\\Desktop\\College Coding Stuff\\Credere\\artifacts\\credere-launch.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "start_time": "0.000000",
+      "duration": "40.000000",
+      "size": "22870412",
+      "bit_rate": "4574082",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "audio": {
+    "maxDbFS": -1.5,
+    "volumedetect": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\krris\\OneDrive\\Desktop\\College Coding Stuff\\Credere\\artifacts\\credere-launch.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Duration: 00:00:40.00, start: 0.000000, bitrate: 4574 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 4299 kb/s, 60 fps, 60 tbr, 15360 tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n        encoder         : Lavc61.19.100 libx264\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 261 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\n[Parsed_volumedetect_0 @ 000002921b610400] n_samples: 0\r\nStream mapping:\r\n  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))\r\nPress [q] to stop, [?] for help\r\nOutput #0, null, to 'pipe:':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Stream #0:0(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\n        encoder         : Lavc61.19.100 pcm_s16le\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] n_samples: 3840000\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] mean_volume: -23.3 dB\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] max_volume: -1.5 dB\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] histogram_1db: 3\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] histogram_2db: 44\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] histogram_3db: 138\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] histogram_4db: 319\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] histogram_5db: 1338\r\n[Parsed_volumedetect_0 @ 000002921b7a2440] histogram_6db: 3092\r\n[out#0/null @ 000002921b540580] video:0KiB audio:7500KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:00:40.00 bitrate=N/A speed= 720x    \r\n"
+  },
+  "mp4": "C:\\Users\\krris\\OneDrive\\Desktop\\College Coding Stuff\\Credere\\artifacts\\credere-launch.mp4",
+  "decodedExportQA": {
+    "audioSamplePeakDbFS": -1.5176324020955037,
+    "clippedAudioSamples": 0,
+    "faststart": true,
+    "contactSheetFrames": [
+      1.8,
+      5.9,
+      10.3,
+      15.9,
+      21.8,
+      27.7,
+      33.6,
+      37.5,
+      38.5,
+      39.8
+    ],
+    "bytes": 22870412,
+    "atoms": [
+      [
+        "ftyp",
+        0,
+        32
+      ],
+      [
+        "moov",
+        32,
+        64244
+      ],
+      [
+        "free",
+        64276,
+        8
+      ],
+      [
+        "mdat",
+        64284,
+        22806128
+      ]
+    ]
+  },
+  "previewControls": {
+    "running": {
+      "time": 1.266666692,
+      "clock": "00:01.26 / 00:40.00",
+      "audioClock": 1.269333333333333
+    },
+    "muted": true,
+    "pauseHolds": true,
+    "sought": 26.00000052,
+    "passed": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "network": "Local Hardhat",
+  "chainId": 31337,
+  "evidence": "Real transactions on a local test blockchain; not Sepolia or empirical research.",
+  "loanPrincipal": "1000",
+  "collateral": "975",
+  "unsecured": "25",
+  "apr": "10",
+  "navBeforeDefault": "8016.17534",
+  "navAfterDefault": "8016.17534",
+  "reserveBeforeDefault": "104.043834",
+  "reserveAfterDefault": "79.043834",
+  "reserveUsed": "25",
+  "lpLoss": "0",
+  "borrowerCreditAfterDefault": "0",
+  "transactions": [
+    {
+      "action": "borrow to build history",
+      "hash": "0x85b63a24ab6f5a835604207bef6774fd194dd57a8c671218716fc7a0f33ab09e",
+      "loanId": "2"
+    },
+    {
+      "action": "on-time repayment after 15 economic days",
+      "hash": "0x218ffcc9d89dfe0a50c7b35e8637786cda035c353321ad33c6b55ef15be6c964",
+      "loanId": "2"
+    },
+    {
+      "action": "borrow to build history",
+      "hash": "0xcc8d101847c84a021b01aa66ee8c56eb716dff3845de53e895218ffb8db29eac",
+      "loanId": "3"
+    },
+    {
+      "action": "on-time repayment after 15 economic days",
+      "hash": "0xc4aea4a31e8d90b819eff88b77617e3d0605c8e7bc225d81ebf492250cff6c24",
+      "loanId": "3"
+    },
+    {
+      "action": "borrow to build history",
+      "hash": "0x7275a2641be3a5ff179067fd5c9279c8457c12497e880ca5f6f53726417cb816",
+      "loanId": "4"
+    },
+    {
+      "action": "on-time repayment after 15 economic days",
+      "hash": "0x915024f3db844017aabc2f5482d21c03cf920a6727e6fe9a88aeebd5944d5fe1",
+      "loanId": "4"
+    },
+    {
+      "action": "borrow to build history",
+      "hash": "0x320ea2c46bc257876d863ed3566eaafa86676d75e7224ebdaffdf206e574c050",
+      "loanId": "5"
+    },
+    {
+      "action": "on-time repayment after 15 economic days",
+      "hash": "0x46ee1c9904dd651b74672bf7b22dffad5ae12a0bd267109d29a6516fd2e9310a",
+      "loanId": "5"
+    },
+    {
+      "action": "earned-credit borrowing",
+      "hash": "0xabda09cdc45076b63d22732d81b381d1e0a98377088e18d7c0a3cb154a0b1062",
+      "loanId": "6"
+    },
+    {
+      "action": "permissionless default settlement",
+      "hash": "0x2c78f5b31328ef32128131e9cc409e8ebe31c5b64660da2949049f218ac75d9c",
+      "loanId": "6"
+    }
+  ]
+}

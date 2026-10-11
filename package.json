@@ -1,0 +1,44 @@
+{
+  "name": "credere",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -p tsconfig.app.json && vite build",
+    "compile": "hardhat compile && tsx scripts/export-contracts.ts",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "demo:local": "hardhat run scripts/demo.ts --network localhost",
+    "video:preview": "remotion studio video/index.tsx",
+    "video:render": "remotion render video/index.tsx CredereSubmission artifacts/credere-submission.mp4 --codec h264",
+    "research:test": "python -m unittest discover -s research/tests -v",
+    "research:stress": "python research/stress.py",
+    "check": "npm run compile && npm test && npm run build && npm run research:test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@tanstack/react-query": "^5.90.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "viem": "^2.38.0",
+    "wagmi": "^3.7.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.7",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.3",
+    "hardhat": "3.19.0",
+    "remotion": "4.0.534",
+    "tsx": "^4.20.5",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.7",
+    "zod": "4.5.4"
+  }
+}
