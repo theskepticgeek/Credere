@@ -6,6 +6,8 @@ artifacts/build-info/
 artifacts/*.mp4
 artifacts/*.tar.gz
 artifacts/video-qa/
+artifacts/
+docs/
 coverage/
 .env
 .env.*
