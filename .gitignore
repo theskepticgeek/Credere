@@ -9,7 +9,11 @@ artifacts/video-qa/
 coverage/
 .env
 .env.*
-!.env.example
+.env.example
+.openai/
+video/
+.deck-build/
+deliverables/
 .vercel/
 public/deployment.local.json
 deployments/31337*.json

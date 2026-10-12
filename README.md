@@ -117,6 +117,8 @@ Observed protocol history age is not wallet age. Historical borrowed-asset diver
 
 ## Video and submission
 
+The new judge-focused hybrid film is [`artifacts/credere-hackathon.mp4`](artifacts/credere-hackathon.mp4): 60 seconds, 1080p/60fps, with synthesized music and sound effects. It combines the launch typography with fresh actual UI captures of earned credit, borrowing terms, default settlement, reserve accounting and a clearly labelled hypothetical stress case. See its [self-contained HTML source](video/hybrid/credere-hackathon.html), [storyboard](video/hybrid/storyboard.md), and [transaction evidence](video/hybrid/evidence.json).
+
 The latest Hack in Hills launch film is [`artifacts/credere-launch.mp4`](artifacts/credere-launch.mp4): 40 seconds, 1920×1080 at 60 fps, with an original synthesized stereo soundtrack. The [self-contained canvas preview and source](video/launch/credere-launch.html), [storyboard and research](video/launch/storyboard.md), [contact sheet](video/launch/contact-sheet.jpg), and [export QA](video/launch/qa.json) are included. Open the HTML in Chromium and press Play; embedded fonts and synthesized sound work offline. The film uses verified local prototype values and explicitly identifies test funds.
 
 To rebuild this film, see the renderer instructions in the storyboard. The older 75-second Remotion presentation remains available through the commands below.
